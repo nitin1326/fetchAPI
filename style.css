@@ -1,0 +1,117 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 100vw;
+    flex-direction: column;
+}
+
+
+.input-container{
+    padding: 10px 24px;
+    border: 2px solid seagreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius:1rem 0 1rem 0;
+    flex-wrap: wrap;
+    box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.3);
+    
+
+}
+
+#input-value{
+    display: inline-block;
+    width: 400px;
+    padding: 12px;
+    border: 2px solid tomato;
+    border-radius: 1rem;
+
+} 
+
+.input-container button {
+    border: none;
+    background-color: darkorange;
+    padding: 10px 24px;
+    border-radius: 1rem;
+    color: white;
+}
+
+.user-container{
+    display: flex;
+    gap: 20px;
+    border: 2px sandybrown solid;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.arrow-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#arrow{
+    width: 50px;
+    height: 50px;
+    flex: 0.2;
+ 
+
+}
+
+.user{
+    margin-top: 20px;
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border: 2px solid black;
+}
+
+.user h1{
+    text-align: center;
+}
+
+.user img{
+    width: 150px;
+    height: 150px;
+}
+
+.address-container{
+ 
+    display: flex;
+    flex: 3;
+    padding: 12px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    margin-top: 20px;
+    
+}
+
+.address-container address{
+    max-width: 200px;
+}
+
+@media(max-width:600px){
+    .user-container{
+        display: flex;
+        gap: 20px;
+        border: 2px sandybrown solid;
+        flex-direction: column;
+      
+        margin-top: 20px;
+        padding: 20px;
+    }
+
+}
